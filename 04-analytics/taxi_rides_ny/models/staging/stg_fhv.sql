@@ -26,7 +26,7 @@ select
 
 from tripdata
 
--- dbt build --select <stg_fhv> --vars '{'is_test_run': 'false'}'
+-- dbt build --select stg_fhv --vars '{'is_test_run': 'false'}'
 {% if var('is_test_run', default=true) %}
 
   limit 100
