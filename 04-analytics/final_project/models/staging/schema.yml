@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: glossy-grin-413315
+    schema:  final_project
+
+    tables:
+      - name: all_data 
