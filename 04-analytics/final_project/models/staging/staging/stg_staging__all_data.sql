@@ -12,10 +12,8 @@ renamed as (
         foco_id,
         lat,
         lon,
-        data_pas,
         pais,
-        estado,
-        municipio
+        year
 
     from source
 
